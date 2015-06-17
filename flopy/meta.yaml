@@ -13,14 +13,15 @@ requirements:
     build:
         - python
         - setuptools
-        - numpy
-        - matplotlib
+        - numpy 1.9 (or higher)
+        - matplotlib 1.4 (or higher)
     run:
         - python
-        - numpy
-        - matplotlib
+        - numpy 1.9 (or higher)
+        - matplotlib 1.4 (or higher)
+        - Pyshp 1.2 (or higher) for flopy.plot submodule
 
 about:
-    home: https://code.google.com/p/flowpy/
-    license: BSD
-    summary: 'scripts to run MODFLOW, MT3D, SWI and SEAWAT'
+    home: https://github.com/modflowpy/flopy/
+    license: New BSD
+    summary: 'FloPy is a Python package to create, run, and post-process MODFLOW-based models.'
